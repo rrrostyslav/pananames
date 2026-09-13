@@ -29,6 +29,10 @@ npx playwright test --headed
 
 Authentication is performed through the UI once before the test run. The session state is stored locally in `.auth/user.json`.
 
+## Note about locators
+
+Some elements are located using XPath because the app does not provide enough stable locators. These locators may be sensitive to layout changes. In a reale case, stable locators would be preferred.
+
 ## Test report
 
 The repository includes an HTML report from the latest test run in `playwright-report/index.html`.
