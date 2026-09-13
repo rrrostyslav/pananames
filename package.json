@@ -1,0 +1,25 @@
+{
+  "name": "pananames",
+  "version": "1.0.0",
+  "description": "Pananames Playwright and TypeScript test framework skeleton",
+  "scripts": {
+    "test": "playwright test",
+    "format": "prettier --write .",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@faker-js/faker": "^10.6.0",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^22.20.2",
+    "prettier": "^3.9.6",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  },
+  "private": true
+}
